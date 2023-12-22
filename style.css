@@ -92,7 +92,7 @@ button:nth-child(2) {
 }
 
 /* Media query for screens smaller than 600px (typical mobile phones) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 574px) {
     button.yes-btn {
         width: 100%; /* Make the button full width on small screens */
         margin: 10px 0; /* Add some margin for spacing */
