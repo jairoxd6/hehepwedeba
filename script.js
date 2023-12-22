@@ -37,7 +37,7 @@ function fireworks() {
 }
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "yeeeheeeeeey";
+  question.innerHTML = "aaaaaa I love you ><";
   gif.src = "https://media.giphy.com/media/yl3xCL7IMbMxwscPlm/giphy.gif";
 
   // Hide the "No" button
