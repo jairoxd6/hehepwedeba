@@ -4,6 +4,9 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
+// an audio element
+const audio = new Audio("background music/can I get a kiss.mp3");
+
 // Fireworks confetti code
 function fireworks() {
   var duration = 15 * 1000;
@@ -45,6 +48,9 @@ yesBtn.addEventListener("click", () => {
 
   // Trigger fireworks instead of confetti
   fireworks();
+  
+ // Play the audio
+  audio.play();
 });
 
 noBtn.addEventListener("mouseover", () => {
