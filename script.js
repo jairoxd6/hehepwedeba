@@ -40,7 +40,7 @@ function fireworks() {
 }
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "sigiii";
+  question.innerHTML = "sigiii tau na 🙈 <br> 06 - 09 - 2024, yan monthsary natin";
   gif.src = "https://media.giphy.com/media/yl3xCL7IMbMxwscPlm/giphy.gif";
 
   // Hide the "No" button
